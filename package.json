@@ -1,0 +1,33 @@
+{
+  "name": "lavalink-static",
+  "version": "1.0.0",
+  "description": "Simple node module to download lavalink binary",
+  "main": "index.js",
+  "files": [
+    "cli.js",
+    "index.js"
+  ],
+  "bin": {
+    "lavalink-static": "./cli.js",
+    "lavalink-dl": "./cli.js",
+    "lavadl": "./cli.js"
+  },
+  "scripts": {
+    "test": "cd test && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevSnowflake/lavalink-static.git"
+  },
+  "keywords": [
+    "lavalink",
+    "download",
+    "downloader"
+  ],
+  "author": "DevAndromeda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DevSnowflake/lavalink-static/issues"
+  },
+  "homepage": "https://github.com/DevSnowflake/lavalink-static#readme"
+}
